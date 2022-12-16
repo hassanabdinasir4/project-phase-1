@@ -30,3 +30,9 @@ async function getmovies(url) {
             <h3>overview</h3>
             ${overview}
         </div>
+        `;
+    main.appendChild(movieEl);
+  });
+}
+function getClassByRate(vote) {
+  if (vote >= 8) {
