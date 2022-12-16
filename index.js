@@ -42,3 +42,12 @@ function getClassByRate(vote) {
   } else {
     return "red";
   }
+}
+function searchMovies(url) {
+  // Fetch the movie data from the API using the provided URL
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => {
+      // When the data is received, show the movies using the showMovies function
+      showMovies(data.results);
+    });
