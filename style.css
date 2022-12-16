@@ -74,3 +74,10 @@ h1{
   .movie-info span.orange{
     color:orange;
   }
+  .movie-info span.red{
+    color:red;
+    }
+    .movie:hover{
+        transform: translateY(0);
+      }
+      
