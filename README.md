@@ -31,3 +31,6 @@ clone [here] (git@github.com:hassanabdinasir4/project-phase-1.git)
  This project is licensed under ISC license
 ​
 copyright(c) `Hassan Hassan`
+
+# To view the published html page as a website
+click[here](https://hassanabdinasir4.github.io/project-phase-1/)
