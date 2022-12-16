@@ -33,4 +33,4 @@ clone [here] (git@github.com:hassanabdinasir4/project-phase-1.git)
 copyright(c) `Hassan Hassan`
 
 # To view the published html page as a website
-click[here](https://hassanabdinasir4.github.io/project-phase-1/)
+click  [here](https://hassanabdinasir4.github.io/project-phase-1/)
