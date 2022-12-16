@@ -51,3 +51,10 @@ function searchMovies(url) {
       // When the data is received, show the movies using the showMovies function
       showMovies(data.results);
     });
+}
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const searchTerm = search.value;
+  searchMovies(SEARCHAPI + searchTerm);
+  search.value = "";
+});
