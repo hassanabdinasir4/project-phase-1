@@ -21,3 +21,12 @@ async function getmovies(url) {
       movieEl.className = "movie-info";
       movieEl.classList.add("movie");
       movieEl.innerHTML = `
+      <img src="${IMGPATH}${poster_path}"alt="${title}">
+        <div class="movie-info">
+            <h3>${title}</h3>
+            <span class="${getClassByRate(vote_average)}">${vote_average}</span>
+        </div>
+        <div class="overview">
+            <h3>overview</h3>
+            ${overview}
+        </div>
