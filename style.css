@@ -80,4 +80,22 @@ h1{
     .movie:hover{
         transform: translateY(0);
       }
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    nav li {
+        margin: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    nav a:hover {
+        background-color: darkgray;
+    }
       
